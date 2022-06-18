@@ -1,0 +1,21 @@
+.LCon{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.LWrap{
+    width: 80%;
+    border-top: 2px solid lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: gray;
+    text-align: center;
+}
+@media screen and (max-width:380px){
+    .LWrap{
+      font-size: small;
+      }
+}

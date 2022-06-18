@@ -1,0 +1,179 @@
+.DescripCon{
+    /* background-color: pink; */
+    width: 100%;
+    justify-content: center;
+    /* height: 100%; */
+    display: flex;
+    justify-content: center;
+}
+.DescripWrap{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: red; */
+    width: 80%;
+    /* padding-top: 3px; */
+    
+}
+.DescripPic{                                              
+    height: 600px;
+    width: 80%;
+    background-image: url('./DescripAssets/safari.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: pink; */
+    
+}
+@media screen and (max-width:1024px){
+    .DescripPic{
+        display: none;
+    }
+}
+.DescripHold{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    /* background-color: aliceblue; */
+    margin-top: 30px;
+    padding-bottom: 70px;
+}
+@media screen and (max-width:1024px){
+    .DescripHold{
+        margin-top: 10px;
+    }
+}
+.DescripLogo{
+    /* height: 200px; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: bisque; */
+    flex-wrap: wrap;
+}
+@media screen and (max-width:1024px){
+    .DescripLogo{
+         justify-content: space-around;        
+    }
+}
+.DescripLogo > img{
+    height: 20px;
+    width: 100px;
+    /* object-fit: cover; */
+    /* background-color: pink; */
+    margin-top: 15px;
+}
+@media screen and (max-width:378px){
+    .DescripLogo> img{
+       width: 80px;    
+        height: 20px;
+    }
+}
+@media screen and (max-width:320px){
+    .DescripLogo> img{
+       width: 70px;    
+       height: 17px;
+    }
+}
+.DescripCount{
+    width: 100%;
+    /* height: 300px; */
+    margin-top: 50px;
+    /* background-color: red ; */
+    display: flex;
+    border-radius: 6px;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+@media screen and (max-width:768px){
+    .DescripCount{
+         justify-content: center;
+         flex-direction: column;
+         align-items: center;
+  
+        
+    }
+}
+.ninetyHold{
+    width: 32%;
+    height: 90px;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+@media screen and (max-width:768px){
+    .ninetyHold{
+        width: 100%;
+        border-bottom: 1px solid gray;
+        height: 120px;
+    }
+}
+.ninetyK{
+    font-size: 40px;
+    font-weight: 500;
+}
+.ninetyKText{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.FiftyHold{
+    width: 32%;
+    height: 90px;
+    /* background-color: red;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+@media screen and (max-width:768px){
+    .FiftyHold{
+        width: 100%;
+        border: 0;
+        height: 100px;
+    }
+}
+.FiftyK{
+    /* font-family: poppins; */
+    font-size: 40px;
+    font-weight: 500;
+}
+.FiftyKText{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.HundredHold{
+    width: 32%;
+    height: 90px;
+    /* background-color: red;   */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+@media screen and (max-width:768px){
+    .HundredHold{
+        width: 100%;
+        border-top: 1px solid gray;
+        height: 120px;
+    }
+}
+.HundredK{
+    font-size: 40px;
+    font-weight: 500;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.HundredKText{
+    font-size: 14px;
+    margin-top: 10px;
+}

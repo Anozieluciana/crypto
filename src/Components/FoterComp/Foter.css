@@ -1,0 +1,117 @@
+.FoterCon{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+  .FoterWrap{
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+  }
+@media screen and (max-width:768px){
+    .FoterWrap{
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width:768px){
+    .FoterLogo>img{
+        height: 30px;
+        width: 130px;
+    }
+}
+
+  .FoterSocial{
+    width: 30%;
+  }
+  @media screen and (max-width:768px){
+
+    .FoterSocial{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* background-color: red; */
+        padding-bottom: 20px;
+        
+      }
+}
+  .FoterLogo{
+    margin-top: 30px;
+  }
+  .FoterText{
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  @media screen and (max-width:430px){
+    .FoterText{
+    text-align: center;
+   font-size: 14px;
+      }
+}
+  .Ricons{
+    display: flex;
+    /* background-color: red; */
+  }
+  .FoterHandles1{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgray;
+    color: white;
+  }
+  .FoterHandles{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgray;
+    color: white;
+    margin-left: 10px;
+  }
+  .FoterDetails{
+    display: flex;
+    width: 70%;
+    flex-wrap: wrap;
+  }
+  @media screen and (max-width:768px){
+    .FoterDetails{
+        width: 100%;
+        /* justify-content: center; */
+      }
+}
+  .Fcompany{
+    width: 150px;
+    margin-top: 20px;
+
+  }
+  @media screen and (max-width:380px){
+    .Fcompany{
+      width: 140px;
+      }
+}
+@media screen and (max-width:320px){
+    .Fcompany{
+      width: 120px;
+      }
+}
+  .Com{
+    font-family: poppins;
+    margin-bottom: 10px;
+  }
+  .About1{
+    margin-top: 5px;
+  }
+  @media screen and (max-width:380px){
+    .About1{
+     font-size: small;
+      }
+}

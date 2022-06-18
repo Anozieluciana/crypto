@@ -1,0 +1,161 @@
+.CreateCon{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+   padding-bottom: 30px;
+}
+.CraeteWrap{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width:768px){
+    .CraeteWrap{
+    flex-direction: column-reverse;
+    align-items: center;
+}
+}
+
+.CreateFrame{
+    height: 500px;
+    width: 50%;
+    display: flex;
+   /* background-color:red; */
+   align-items: center;
+   justify-content: flex-end;
+}
+ @media screen and (max-width:768px){
+    .CreateFrame{
+    width: 90%;
+   
+}
+}
+@media screen and (max-width:430px){
+  .CreateFrame{
+   width: 100%;
+   height: 400px;
+}
+} 
+@media screen and (max-width:380px){
+  .CreateFrame{
+   height: 300px;
+}
+} 
+@media screen and (max-width:320px){
+  .CreateFrame{
+   height: 270px;
+}
+} 
+
+.CreateIphone{
+    width: 100%;
+    height: 100%;
+    /* background-image: url('./CreateAssets/Left.png'); */
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+  
+}
+
+ @media screen and (max-width:768px){
+    .CreateIphone{
+      background-size: cover;
+}
+} 
+ @media screen and (max-width:430px){
+    .CreateIphone{
+      background-size: contain;
+      /* height: 100%;
+      width: 100%; */
+}
+} 
+
+.CreateHold{
+    /* height: 500px; */
+    width: 50%;
+    display: flex;
+   /* background-color:red; */
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   
+}
+   @media screen and (max-width:768px){
+    .CreateHold{
+  width: 100%;
+ 
+  margin: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+}
+@media screen and (max-width:380px){
+  .CreateHold{
+    margin: 20px;
+}
+} 
+
+
+
+.CreateToday{
+    font-size: 42px;
+    font-weight: 600;
+    width: 60%;
+    line-height: 39px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 97px;
+    margin-bottom: 25px;
+    
+   
+
+}
+@media screen and (max-width:768px){
+    .CreateToday{
+  background-color: white;
+  width: 90%;
+  text-align: center;
+  margin: 0;
+}
+}
+@media screen and (max-width:430px){
+    .CreateToday{
+  font-size: 30px;
+}
+}
+@media screen and (max-width:377px){
+    .CreateToday{
+  font-size: 24px;
+}
+}
+
+
+
+@media screen and (max-width:320px){
+    .CreateToday{
+  font-size: 20px;
+}
+}
+
+.CreateBuy{
+    width: 68%;
+    margin-right: 50px;
+} 
+@media screen and (max-width:768px){
+    .CreateBuy{
+  background-color: white;
+  width: 80%;
+  text-align: center;
+  margin: 0;
+  font-size: 17px;
+  margin-top: 20px;
+}
+}
+@media screen and (max-width:430px){
+    .CreateBuy{
+  font-size: 15px;
+}
+}

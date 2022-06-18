@@ -1,0 +1,153 @@
+.JoinCon{
+width: 100%;
+display: flex;
+justify-content: center;
+/* padding-top: 20px; */
+padding-bottom: 50px;
+}
+@media screen and (max-width:430px){
+    .JoinCon{
+        background-color: purple;
+  
+    }
+}
+.JoinWrap{
+width: 80%;
+display: flex;
+justify-content: space-between;
+background-color: purple;
+height: 240px;
+border-radius: 15px;
+}
+
+@media screen and (max-width:430px){
+    .JoinWrap{
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  
+    }
+}
+@media screen and (max-width:768px){
+    .JoinWrap{
+width: 70%; 
+    }
+}
+.JoinHold{
+width: 50%;
+/* background-color: pink; */
+
+
+}
+@media screen and (max-width:768px){
+    .JoinHold{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        background-color: purple;
+        border-radius: 10px;
+       
+    }
+}
+
+
+.Join{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 45px;
+color: white;
+font-weight: 500;
+margin-top: 30px;
+margin-left: 40px;
+}
+
+@media screen and (max-width:768px){
+    .Join{
+   text-align: center;
+   font-size: 40px;
+   margin: 0px;
+    }
+}
+@media screen and (max-width:1024px){
+    .Join{
+   font-size: 36px;
+    }
+}
+@media screen and (max-width:1024px){
+    .Join{
+   font-size: 30px;
+    }
+}
+
+.JoinBut{
+width: 130px;
+border-radius: 5px;
+background-color: white;
+border: 0;
+outline: none;
+height: 45px;
+display: flex;
+margin-top: 20px;
+margin-left: 40px;
+justify-content: center;
+align-items: center;
+font-family: poppins;
+}
+@media screen and (max-width:768px){
+    .JoinBut{
+  width: 70%;
+  height: 55px;
+  margin-left: 0px;
+  margin-top: 30px;
+    }
+}
+@media screen and (max-width:430px){
+    .JoinBut{
+  width: 100%;
+
+    }
+}
+.JoinLogo{
+width: 40%;
+/* background-color: red; */
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+@media screen and (max-width:768px){
+    .JoinLogo{
+        display: none;
+    }
+}
+.BHold{
+    margin-top: -40px;
+    margin-left: -30px;
+}
+.BHold >img{
+height: 140px;
+width: 140px;
+object-fit: contain;
+
+}
+.LHold{
+    margin-left: -140px;
+    margin-top: 20px;
+}
+.EHold{
+    margin-right: -170px;
+    margin-top: -130px;
+}
+
+.EHold>img{
+    height: 110px;
+    width: 110px;
+    object-fit: contain;
+}
+.LHold>img{
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+}
