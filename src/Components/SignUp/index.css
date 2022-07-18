@@ -1,0 +1,111 @@
+.Sign_Con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    width: 100%;
+}
+
+.Sign_wrap{
+    /* height: 600px; */
+    width: 420px;
+    /* background-color: gray; */
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+   
+}
+.userPic{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px 10px 70px 70px;
+}
+.userPic > img{
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+   resize: none;
+   border-radius: 10px 10px 70px 70px;
+}
+.details{
+    display: flex;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+    padding-top: 10px;
+    flex-direction: column;
+}
+.description{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    text-align: center;
+
+}
+.input_Hold{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.signin{
+    font-size: 20px;
+    font-family: poppins;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.email{
+    background-color: white;
+    margin-top: -12px;
+    /* width: 50px; */
+    font-size: 15px;
+    font-family: poppins;
+    position: absolute;
+    margin-left: 10px;
+    padding-left: 2px;
+    padding-right: 10px;
+
+}
+.Input{
+    width: 90%;
+    border: solid 1px #2752E7;
+    border-radius: 5px;
+    height: 47px;
+}
+.Input :focus{
+    border: solid 1px #05185c;
+}
+
+.Signin_but{
+    width: 100%;
+    height: 47px;
+    background-color: #2752E7;
+    color: white;
+    font-family: poppins;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+.Direc_Hold{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.link{
+    font-family: poppins;
+    text-decoration: none;
+}
+.direction{
+    display: flex;
+}

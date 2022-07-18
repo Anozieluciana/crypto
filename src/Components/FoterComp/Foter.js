@@ -36,6 +36,7 @@ function Foter() {
             </div>
             <div className='FoterDetails'>
               <div className='Fcompany'>
+                <div>
                 <div className='Com'>Company</div>
                 <div className='About1'>About Us</div>
                 <div className='About1'>Blog</div>
@@ -44,10 +45,12 @@ function Foter() {
                 <div className='About1'>Security</div>
                 <div className='About1'>Trust and safety</div>
                 <div className='About1'>Newsroom</div>
-                <div className='About1'>Videos</div>
+                <div className='About1'>Videos</div>    
+                </div>
               </div>
 
               <div className='Fcompany'>
+                <div>
                 <div className='Com'>Learn</div>
                 <div className='About'>What's Trending</div>
                 <div className='About1'>Product news</div>
@@ -55,32 +58,40 @@ function Foter() {
                 <div className='About1'>University</div>
                 <div className='About1'>Research</div>
                 <div className='About1'>Market Updates</div>
+                </div>
               </div>
 
               <div className='Fcompany'>
-                <div className='Com'>Product</div>
+                <div>
+                <div className='Com'>Product</div> 
                 <div className='About'>Stock & Funds</div>
                 <div className='About1'>Cash Card</div>
                 <div className='About1'>Crypto</div>
                 <div className='About1'>Options</div>
                 <div className='About1'>Gold</div>
                 <div className='About1'>Learn Snacks</div>
+                </div>
               </div>
               
               <div className='Fcompany'>
+                <div>
                 <div className='Com'>Support</div>
-                <div className='About'>Support Center</div>
+                    <div className='About'>Support Center</div>
                 <div className='About1'>Contact Us</div>
                 <div className='About1'>System Status</div>
                 <div className='About1'>Areas of Avalability</div>
               </div>
+                </div>
+              
 
               <div className='Fcompany'>
+              <div>
                 <div className='Com'>Resoures</div>
                 <div className='About'>Prices</div>
                 <div className='About1'>Site Widgets</div>
                 <div className='About1'>Tax</div>
                 <div className='About1'>Support</div>
+               </div>
               </div>
 
             </div>

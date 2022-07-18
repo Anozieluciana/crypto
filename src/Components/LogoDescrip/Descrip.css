@@ -1,10 +1,12 @@
 .DescripCon{
-    /* background-color: pink; */
+    /* background-color: #FFFFFF;; */
     width: 100%;
     justify-content: center;
     /* height: 100%; */
     display: flex;
     justify-content: center;
+    background: linear-gradient(358.26deg, #F8F8FC 62.42%, rgba(248, 248, 252, 0) 98.75%);
+    /* background-color: red; */
 }
 .DescripWrap{
     display: flex;
@@ -18,11 +20,9 @@
 .DescripPic{                                              
     height: 600px;
     width: 80%;
-    background-image: url('./DescripAssets/safari.png');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    margin-top: -90px;
     
 }
 @media screen and (max-width:1024px){
@@ -42,6 +42,7 @@
 @media screen and (max-width:1024px){
     .DescripHold{
         margin-top: 10px;
+       
     }
 }
 .DescripLogo{
@@ -59,8 +60,8 @@
     }
 }
 .DescripLogo > img{
-    height: 20px;
-    width: 100px;
+    /* height: 20px;
+    width: 100px; */
     /* object-fit: cover; */
     /* background-color: pink; */
     margin-top: 15px;
@@ -79,16 +80,14 @@
 }
 .DescripCount{
     width: 100%;
-    /* height: 300px; */
     margin-top: 50px;
-    /* background-color: red ; */
     display: flex;
-    border-radius: 6px;
+    border-radius: 10px;
     flex-wrap: wrap;
     justify-content: space-between; 
     padding-top: 20px;
     padding-bottom: 20px;
-    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    border: 1px solid #E3E3E3;
 }
 @media screen and (max-width:768px){
     .DescripCount{
@@ -111,17 +110,23 @@
 @media screen and (max-width:768px){
     .ninetyHold{
         width: 100%;
-        border-bottom: 1px solid gray;
-        height: 120px;
+        /* border-bottom: 1px solid gray; */
+        height: 150px;
     }
 }
 .ninetyK{
-    font-size: 40px;
-    font-weight: 500;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125%;
 }
 .ninetyKText{
-    font-size: 14px;
-    margin-top: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 145%;
+    color: #626262;
 }
 .FiftyHold{
     width: 32%;
@@ -138,17 +143,22 @@
     .FiftyHold{
         width: 100%;
         border: 0;
-        height: 100px;
+        height: 150px;
     }
 }
 .FiftyK{
-    /* font-family: poppins; */
-    font-size: 40px;
-    font-weight: 500;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125%;
 }
 .FiftyKText{
-    font-size: 14px;
-    margin-top: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 145%;
+    color: #626262;
 }
 .HundredHold{
     width: 32%;
@@ -162,18 +172,35 @@
 @media screen and (max-width:768px){
     .HundredHold{
         width: 100%;
-        border-top: 1px solid gray;
-        height: 120px;
+        /* border-top: 1px solid gray; */
+        height: 150px;
     }
 }
+.Line{
+   display: none;
+   
+}
+@media screen and (max-width:768px){
+    .Linee{
+        width: 200px;
+        border: 1px solid rgb(228, 223, 223);
+       display: block;
+       margin-top: 35px;
+    }
+
+}
 .HundredK{
-    font-size: 40px;
-    font-weight: 500;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
+    /* font-family: poppins; */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125%;
 }
 .HundredKText{
-    font-size: 14px;
-    margin-top: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 145%;
+    color: #626262;
 }

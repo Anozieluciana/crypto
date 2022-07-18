@@ -10,6 +10,7 @@ import Get from './GetComp/Get'
 import Join from './JoinComp/Join'
 import Foter from './FoterComp/Foter'
 import Last from './LastComp/Last'
+import {} from "react-router-dom"
 
  const ResideComp = () => {
   return (

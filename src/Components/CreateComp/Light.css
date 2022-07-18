@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     /* background-color: red; */
-   padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 .CraeteWrap1{
     width: 80%;
@@ -13,18 +13,18 @@
 
 @media screen and (max-width:768px){
     .CraeteWrap1{
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
 }
 }
 
 .CreateFrame1{
-    height: 500px;
-    width: 50%;
+    /* height: 500px; */
+    /* width: 50%; */
     display: flex;
    /* background-color:red; */
    align-items: center;
-   justify-content: flex-end;
+   /* justify-content: flex-end; */
 }
  @media screen and (max-width:768px){
     .CreateFrame1{
@@ -63,7 +63,7 @@
 
  @media screen and (max-width:768px){
     .CreateIphone1{
-      background-size: cover;
+      background-size: contain;
 }
 } 
  @media screen and (max-width:430px){
@@ -102,13 +102,11 @@
 
 
 .CreateToday1{
-    font-size: 42px;
-    font-weight: 600;
-    width: 60%;
-    line-height: 39px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-right: 97px;
-    margin-bottom: 25px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125%;
+    width: 68%;  
     
    
 
@@ -141,8 +139,13 @@
 }
 
 .CreateBuy1{
-    width: 68%;
-    margin-right: 50px;
+  width: 68%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 145%;
+  color: #626262;
+  margin-top: 15px;
 } 
 @media screen and (max-width:768px){
     .CreateBuy1{

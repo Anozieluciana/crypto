@@ -5,7 +5,7 @@
     justify-content: center;
     padding-bottom: 30px;
 }
-@media screen and (max-width:430px){
+@media screen and (max-width:768px){
     .MostCon{
         padding-bottom: 0px;
     }
@@ -32,6 +32,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-top: 30px;
 }
 @media screen and (max-width:768px){
     .MostDetails{
@@ -42,17 +43,24 @@
     }
 }
 .MostTitle{
-    font-size: 37px;
-    font-weight: 500;
     width: 75%;
-    line-height: 39px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 125%;
+    /* text-align: center; */
+    color: #2C3131;
   
 }
-@media screen and (max-width:786px){
+@media screen and (max-width:986px){
+    .MostTitle{
+     font-size: 40px;
+     text-align: center;
+    }
+}
+@media screen and (max-width:430px){
     .MostTitle{
      font-size: 30px;
-     text-align: center;
     }
 }
 @media screen and (max-width:325px){
@@ -83,9 +91,9 @@
     font-family: poppins;
     width: 10%;
     color: #4C82EF;
-    font-size: 25px;
+    font-size: 20px;
     opacity: 0.45;
-    margin-top: 7px;
+    margin-top: 10px;
 }
 .Num1Hold{
     justify-content: space-between;
@@ -94,8 +102,11 @@
     width: 100%;
 }
 .Sync{
-    font-family: poppins;
+    font-style: normal;
+    font-weight: 700;
     font-size: 20px;
+    line-height: 145%;
+    /* color: #626262; */
     margin-top: 10px;
 }
 @media screen and (max-width:786px){
@@ -104,13 +115,17 @@
     }
 }
 .No{
-    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 145%;
+    color: #626262;
     width: 95%;
     margin-top: 5px;
 }
 @media screen and (max-width:786px){
     .No{
-     font-size: small;
+     font-size: 18px;
     }
 }
 
@@ -137,9 +152,9 @@
     font-family: poppins;
     width: 10%;
     color: #4C82EF;
-    font-size: 25px;
+    font-size: 20px;
     opacity: 0.45;
-    margin-top: 7px;
+    margin-top: 10px;
 }
 .Num2Hold{
     justify-content: space-between;
@@ -148,8 +163,10 @@
     width: 100%;
 }
 .More{
-    font-family: poppins;
+    font-style: normal;
+    font-weight: 700;
     font-size: 20px;
+    line-height: 145%;
     margin-top: 10px;
 }
 @media screen and (max-width:786px){
@@ -179,9 +196,9 @@
     font-family: poppins;
     width: 10%;
     color: #4C82EF;
-    font-size: 25px;
+    font-size: 20px;
     opacity: 0.45;
-    margin-top: 7px;
+    margin-top: 10px;
 }
 .Num3Hold{
     justify-content: space-between;
@@ -190,8 +207,10 @@
     width: 100%;
 }
 .Sync3{
-    font-family: poppins;
-    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 145%;
     margin-top: 10px;
 }
 @media screen and (max-width:786px){

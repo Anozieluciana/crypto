@@ -2,9 +2,14 @@ import React,{useState} from 'react'
 import './Header.css'
 import pic from './HeaderAssets/Logo.jpg'
 import {AiOutlineMenuFold,AiOutlineMenuUnfold} from 'react-icons/ai'
+import {Link} from "react-router-dom"
 
  const Header = () => {
+
+  const [activate, setActivate] = useState(false)
  
+  const handleClick = () => setActivate(!activate)
+  const closemenu = () => setActivate(false)
 
   return (
     <div className='HeaderCon'>
@@ -17,38 +22,28 @@ import {AiOutlineMenuFold,AiOutlineMenuUnfold} from 'react-icons/ai'
             <div className='Product'>Price</div>
             <div className='Product'>Learn</div>
             <div className='Product'>Support</div>
-            <div className='SignNav'>Support</div>
-            <div className='ButNav'>Support</div>
         </div>
         <div className='HeaderSigning'>
-            <div className='Sign'>Sign in</div>
+           <Link to="/signin" className='Sign' >Sign in</Link>
             <div className='HeaderGet'>Get Started</div>
         </div>
-        <div>
+        <div className='ToggleHold' onClick={handleClick}>
+        { activate ? (<AiOutlineMenuFold size="25px"/>) : (<AiOutlineMenuUnfold  size="25px"/>)}
         </div>
-          <div className="Menu">
-            <AiOutlineMenuUnfold className='Ic2' id='menu' onClick={()=>{
-            document.getElementById("sidebar").style.width = "200px"
-            document.getElementById("menu").style.display = "none"
-            document.getElementById("close").style.display = "block"
-          }}/>
 
-          <AiOutlineMenuFold className='Ic' id="close" onClick={() =>{
-            document.getElementById("sidebar").style.width = "0"
-            document.getElementById("menu").style.display = "block"
-            document.getElementById("close").style.display = "none"
-            document.getElementById("close").style.transition = "all 300ms"
-          }}/>
+
+        <div className={`DropMenu ${activate ? "Show":""}`}>
+          <div className='NavHold'>
+            <div>Product</div>
+            <div>Price</div>
+            <div>Learn</div>
+            <div>Support</div>
+            <Link to="/signin" className='Sign1'>Sign in</Link>
+            <div className='HeaderGet'>Get Started</div>
           </div>
-          <div className='Sidebar' id='sidebar'>
-          <div className='Product1'>Product</div>
-            <div className='Product1'>Price</div>
-            <div className='Product1'>Learn</div>
-            <div className='Product1'>Support</div>
-            <div className='SignNav1'>Support</div>
-            <div className='Sign1'>Sign in</div>
-            <div className='HeaderGet1'>Get Started</div>
-             </div>
+        </div>
+      
+         
       </div>
     </div>
   )
